@@ -9,10 +9,7 @@ Java中的main()方法详解
 http://lavasoft.blog.51cto.com/62575/53263/																																		
 																																		
 万能的林萧说：一篇文章教会你，如何做到招聘要求中的“要有扎实的Java基础”。																																		
-http://www.cnblogs.com/zuoxiaolong/p/life53.html																																		
-																																		
-http://www.runoob.com/java/java-tutorial.html																																		
-																																		
+http://www.cnblogs.com/zuoxiaolong/p/life53.html																																																								
 http://www.cnblogs.com/zuoxiaolong/p/life51.html																																		
 																																		
 http://www.cnblogs.com/edisonchou/p/5990875.html																																		
@@ -35,14 +32,7 @@ http://www.importnew.com/
 																																		
 http://www.importnew.com/author/tangxiaojuan																																		
 																																		
-http://www.cnblogs.com/jesonjason/p/5492208.html																																		
-																																		
-http://www.importnew.com/11725.html																																		
-																																		
-http://www.cnblogs.com/xcj26/p/6037808.html																																		
-																																		
-																																		
-http://longw.blog.51cto.com/6475045/1683360																																		
+http://www.cnblogs.com/jesonjason/p/5492208.html											http://www.importnew.com/11725.html													http://www.cnblogs.com/xcj26/p/6037808.html												http://longw.blog.51cto.com/6475045/1683360																																		
 																																		
 																																		
 http://www.cnblogs.com/GnagWang/archive/2011/02/27/1966606.html#!comments																																		
