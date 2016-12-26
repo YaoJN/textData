@@ -17,18 +17,25 @@ http://www.cnblogs.com/zuoxiaolong/p/life51.html
 借助GitHub托管你的项目代码:							
 http://www.cnblogs.com/edisonchou/p/5990875.html		
 
+如何从零开始学习一个框架:							
 http://www.cnblogs.com/lvdabao/p/5992727.html		
 
+下面是参考网络资源总结的一些在Java编程中尽可能要做到的一些地方。:							
 http://blog.csdn.net/it_man/article/details/8225477			
 
+万能的林萧说：我来告诉你，一个草根程序员如何进入BAT。:							
 http://www.cnblogs.com/zuoxiaolong/p/life54.html				
 
+从一个程序员的角度看——微信小应用（含内部分享直播）:							
 http://www.cnblogs.com/1wen/p/6008621.html							
 
+跟我学SpringMVC目录汇总贴、PDF下载、源码下载:							
 http://jinnianshilongnian.iteye.com/blog/1752171						
 
+深入浅出的理解框架（Struts2、Hibernate、Spring）与 MVC 设计模式:							
 http://www.cnblogs.com/itao/archive/2011/08/22/2148844.html				
 
+值得程序员和设计师关注的微信公众号:							
 http://blog.jobbole.com/84342/?utm_source=www.importnew.com&utm_medium=rightBanner-1&utm_content=2015.9.16		
 
 http://www.importnew.com/							
