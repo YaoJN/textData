@@ -1,6 +1,7 @@
 # textData
- Java 通过使用File类获取文件信息
+Java 通过使用File类获取文件信息
 http://blog.csdn.net/lzwjavaphp/article/details/7389368	
+
 修改eclipse内存大小,控制内存溢出
 http://jingyan.baidu.com/article/425e69e6e29dacbe15fc1685.html							
 Java中的main()方法详解
