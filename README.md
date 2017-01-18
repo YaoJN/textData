@@ -1,5 +1,8 @@
 # textData
 
+字符集和字符编码（Charset & Encoding）
+http://www.cnblogs.com/skynet/archive/2011/05/03/2035105.html
+
 听说最近你读过不少书(可以入手的书以及GC调优PPT)：						
 http://www.cnblogs.com/cyfonly/p/6053868.html
 
