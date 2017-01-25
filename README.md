@@ -1,5 +1,7 @@
 # textData
 
+在线工具:http://tool.lu/
+
 字符集和字符编码（Charset & Encoding）
 http://www.cnblogs.com/skynet/archive/2011/05/03/2035105.html
 
