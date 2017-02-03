@@ -1,5 +1,7 @@
 # textData
 
+CDN加速原理:http://www.72e.net/cdnspeed/cdnyuanli.aspx
+
 在线工具:http://tool.lu/
 
 字符集和字符编码（Charset & Encoding）
