@@ -1,5 +1,7 @@
 # textData
 
+Java豆瓣电影爬虫——抓取电影详情和电影短评数据: http://www.importnew.com/23242.html
+
 Github超高影响力开源大放送，学习开发必备教科书:http://www.cnblogs.com/liushilin/p/6378607.html
 
 在线API http://tool.oschina.net/apidocs
