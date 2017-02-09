@@ -46,10 +46,10 @@ equals()和hashCode()区别？:http://www.cnblogs.com/jesonjason/p/5492208.html
 
 100行代码实现了多线程,批量写入,文件分块的日志方法:http://www.cnblogs.com/xcj26/p/6037808.html
 
-http://longw.blog.51cto.com/6475045/1683360					
+ Java多线程中static变量的使用:http://longw.blog.51cto.com/6475045/1683360					
 
-http://www.cnblogs.com/GnagWang/archive/2011/02/27/1966606.html#!comments
+java synchronized详解:http://www.cnblogs.com/GnagWang/archive/2011/02/27/1966606.html#!comments
 
-http://blog.csdn.net/joyous/article/details/9630893				
+Java Calendar 类的时间操作:http://blog.csdn.net/joyous/article/details/9630893				
 
-http://www.cnblogs.com/yuanguobin/p/6096029.html
+你加班太多是因为你的代码写的烂:http://www.cnblogs.com/yuanguobin/p/6096029.html
