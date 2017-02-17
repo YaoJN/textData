@@ -1,5 +1,7 @@
 # textData
 
+ sql server try...catch使用 异常处理 不错的SQL错误处理 :http://blog.csdn.net/arvinstudy/article/details/8191655
+
 编程书籍阅读随谈(第三篇) :http://www.cnblogs.com/pengze0902/p/6393332.html
 
 Java豆瓣电影爬虫——抓取电影详情和电影短评数据: http://www.importnew.com/23242.html
