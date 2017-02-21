@@ -1,6 +1,7 @@
 # textData
 
 查找算法之哈希表 :http://www.cnblogs.com/Frank-C/p/5086352.html
+
 sql server try...catch使用 异常处理 不错的SQL错误处理 :http://blog.csdn.net/arvinstudy/article/details/8191655
 
 编程书籍阅读随谈(第三篇) :http://www.cnblogs.com/pengze0902/p/6393332.html
