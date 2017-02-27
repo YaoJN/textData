@@ -1,5 +1,7 @@
 # textData
 
+java之yield(),sleep(),wait()区别详解-备忘笔记    http://dylanxu.iteye.com/blog/1322066
+
 各种图（流程图，思维导图，UML，拓扑图，ER图）简介:  http://www.cnblogs.com/jiqing9006/p/3344221.html
 
 数据结构和算法 :http://www.cnblogs.com/mcgrady/category/396002.html
