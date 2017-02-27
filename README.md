@@ -1,5 +1,7 @@
 # textData
 
+各种图（流程图，思维导图，UML，拓扑图，ER图）简介:  http://www.cnblogs.com/jiqing9006/p/3344221.html
+
 数据结构和算法 :http://www.cnblogs.com/mcgrady/category/396002.html
 
 sql server try...catch使用 异常处理 不错的SQL错误处理 :http://blog.csdn.net/arvinstudy/article/details/8191655
