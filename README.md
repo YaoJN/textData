@@ -1,5 +1,7 @@
 # textData
 
+面试的角度诠释Java工程师（一）:http://www.importnew.com/23549.html
+
 synchronized的4种用法 :http://www.cnblogs.com/wnlja/p/3929905.html
 
 java之yield(),sleep(),wait()区别详解-备忘笔记    http://dylanxu.iteye.com/blog/1322066
