@@ -1,4 +1,5 @@
 # textData
+svn 清理失败 (cleanup 失败) 的解决方法 : http://blog.csdn.net/keenweiwei/article/details/34090553
 
  SQL Server2008优化之SET STATISTICS开关 : http://blog.csdn.net/ghlfllz/article/details/38661711
 
