@@ -1,5 +1,7 @@
 # textData
 
+ SQL Server2008优化之SET STATISTICS开关 : http://blog.csdn.net/ghlfllz/article/details/38661711
+
 面试的角度诠释Java工程师（一）:http://www.importnew.com/23549.html
 
 synchronized的4种用法 :http://www.cnblogs.com/wnlja/p/3929905.html
