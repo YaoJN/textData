@@ -1,4 +1,6 @@
 # textData
+
+java线程安全问题之静态成员变量、实例成员变量、局部变量 : http://blog.csdn.net/will_awoke/article/details/38044415
 svn 清理失败 (cleanup 失败) 的解决方法 : http://blog.csdn.net/keenweiwei/article/details/34090553
 
  SQL Server2008优化之SET STATISTICS开关 : http://blog.csdn.net/ghlfllz/article/details/38661711
