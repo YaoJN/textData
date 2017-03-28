@@ -1,5 +1,7 @@
 # textData
 
+如果有人让你推荐编程技术书，请叫他看这个列表:http://blog.jobbole.com/106093/
+
 跟我一起学Spring 3(3)–使用Spring开发第一个HelloWorld应用 :http://www.importnew.com/13246.html
 
 面试的角度诠释Java工程师（一） : http://www.importnew.com/23549.html
