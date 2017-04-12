@@ -1,5 +1,7 @@
 # textData
 
+Java中的多线程你只要看这一篇就够了 : http://www.cnblogs.com/wxd0108/p/5479442.html
+
 git 入门宝典 http://www.cnblogs.com/HCJJ/p/6650038.html
 
 如果有人让你推荐编程技术书，请叫他看这个列表:http://blog.jobbole.com/106093/
