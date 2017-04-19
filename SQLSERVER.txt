@@ -1,0 +1,97 @@
+1.解锁sqlserver进程
+查询被锁表
+select equest_session_id pid,OBJECT_NAME(resource_associated_entity_id) tableName
+from ys.dm_tran_locks where resource_type='OBJECT'
+
+查询主机名
+exec sp_who2 '80'
+
+杀进程
+declare @spid  int
+Set @spid  = 80 --锁表进程
+declare @sql varchar(1000)
+set @sql='kill '+cast(@spid  as varchar)
+exec(@sql)
+
+可复用详细查询主机名
+(表变量)	
+CREATE TABLE #TEMP_SP_WHO2
+(SPID varchar(200)	
+,Status varchar(200)	
+,Login varchar(200)	
+,HostName varchar(200)	
+,BlkBy varchar(200)	
+,DBName varchar(200)	
+,Command varchar(200)	
+,CPUTime varchar(200)	
+,DiskIO varchar(200)	
+,LastBatch varchar(200)	
+,ProgramName varchar(200)	
+,SPID_2 varchar(200)	
+,REQUESTID varchar(200))	
+insert into #TEMP_SP_WHO2	
+exec sp_who2	
+select * from #TEMP_SP_WHO2	
+where HostName like 'P-YAOJN'	
+DROP TABLE #TEMP_SP_WHO2
+
+(临时表)
+DECLARE @TEMP_SP_WHO2 table	
+(SPID varchar(200)
+,Status varchar(200)
+,Login varchar(200)
+,HostName varchar(200)
+,BlkBy varchar(200)
+,DBName varchar(200)
+,Command varchar(200)
+,CPUTime varchar(200)
+,DiskIO varchar(200)
+,LastBatch varchar(200)
+,ProgramName varchar(200)
+,SPID_2 varchar(200)
+,REQUESTID varchar(200))
+insert into @TEMP_SP_WHO2
+exec sp_who2
+select * from @TEMP_SP_WHO2
+where HostName like 'P-YAOJN'
+
+sp_whos详细说明	
+sp_who可以返回如下信息： (可选参数LoginName, 或active代表活动会话数)	
+
+Spid(系统进程ID)	
+status(进程状态)	
+loginame(用户登录名)	
+hostname(用户主机名)	
+blk(阻塞进程的SPID)	
+dbname(进程正在使用的数据库名)	
+Cmd(当前正在执行的命令类型)	
+CPUTime(进程占用的总CPU时间)	
+DiskIO (进程对磁盘读的总次数)	
+LastBatch(客户最后一次调用存储过程或者执行查询的时间)	
+ProgramName (用来初始化连接的应用程序名称，或者主机名)	
+
+2.全数据库表检索列
+select sysobjects.name as tablename,syscolumns.name as columnname
+from syscolumns join sysobjects on sysobjects.id = syscolumns.id
+where syscolumns.name like '%MENU_DUTIES_GROUP_ID%'
+
+3.开启执行计划
+set statistics profile on 
+
+4.sqlserver 换行符
+制表符： CHAR(9)
+换行符： CHAR(10)
+回车符： CHAR(13)
+
+5.sql打印错误信息
+DECLARE @ErrorMessage NVARCHAR(4000); 
+DECLARE @ErrorSeverity INT; 
+DECLARE @ErrorState INT; 
+SELECT 
+@ErrorMessage = ERROR_MESSAGE(), 
+@ErrorSeverity = ERROR_SEVERITY(), 
+@ErrorState = ERROR_STATE(); 
+RAISERROR (@ErrorMessage, -- Message text. 
+@ErrorSeverity, -- Severity. 
+@ErrorState -- State. 
+); 
