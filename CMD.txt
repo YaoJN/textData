@@ -1,0 +1,15 @@
+1.批量保存文件名到文件
+CD C:\WINDOWS\SYSTEM32
+DIR/ON/B>D:\LIST.TXT
+
+2.通过IP地址查找主机,通过主机查找IP地址
+PING (主机名)
+nbtstat -a (地址)
+
+3.关闭软件自启动
+运行 msconfig 选项卡4
+
+4.SVN CLEAN UP 失败
+复制.svn下的wc.db文件到sqlite.exe文件夹同文件夹中
+执行sqlite wc.db
+执行delete from work_queue
