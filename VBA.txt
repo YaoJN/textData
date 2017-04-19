@@ -1,0 +1,75 @@
+1.删除掉包含某些字段的sheet页
+Sub a()	
+    Dim sht As Worksheet, r As Range, s As String	
+    For i = Worksheets.Count To 1 Step -1       从work的最后一个sheet反向遍历	
+        s = Sheets(i).[c6]                      取得验证的字符串	
+        If InStr(1, s, "拡張") > 0              Then如果包含	
+            Worksheets(i).Delete                删除sheet	
+        End If	
+    Next	
+End Sub	
+
+2.取得工作表的所有sheet数
+Sub a()
+    Dim sht As Worksheet, r As Range, s As String
+    For i = Worksheets.Count To 1 Step -1			从work的最后一个sheet反向遍历									
+        s = Sheets(i).[c6]							取得验证的字符串									
+        If InStr(1, s, "拡張") > 0 Then				如果包含									
+            Worksheets(i).Delete					删除sheet									
+        End If																									
+    Next																									
+End Sub
+
+3.取得工作表的所有sheet数
+Sub a()
+    i = Worksheets.Count
+ MsgBox (i)
+End Sub
+
+4.在测试书中自动生成证据番号
+Sub MakeEvidenceNo()
+Dim i As Integer	
+Dim countStr As String	
+i = 5	
+countStr = ""	
+While (Range("a" & i) <> "")	
+If Range("c" & i) <> "" And Range("d" & i) <> "" Then	
+countStr = Range("a" & i)	
+ If Range("c" & (i + 1)) = "" And Range("d" & (i + 1)) <> "" Then	
+ countStr = countStr & "-"	
+ Dim j As Integer	
+ j = i + 1	
+ While (Range("c" & (j + 1)) = "" And Range("d" & (j + 1)) <> "")	
+ j = j + 1	
+ Wend	
+ countStr = "'" & countStr & Range("a" & j)	
+ End If	
+ Range("h" & i) = countStr	
+ElseIf Range("d" & i) <> "" Then	
+ Range("h" & i) = Range("h" & i - 1)	
+End If	
+i = i + 1	
+Wend	
+MsgBox ("OK")	
+End Sub	
+
+5.新建一张带INDEX字段的表
+
+6.批量设超链接
+Sub Macro5()
+    Dim r As Range
+    Dim i As Integer
+    Dim a As Range
+    Dim s As String
+    i = 1
+    Set a = Range("D6:G103")
+    For Each r In a
+        r.Select
+        s = r.Value
+        If s <> "" Then
+            ActiveSheet.Hyperlinks.Add Anchor:=Selection, Address:="", SubAddress:= _
+            i & "!A1", TextToDisplay:=s
+            i = i + 1
+        End If
+    Next r
+End Sub			
