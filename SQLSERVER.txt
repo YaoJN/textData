@@ -95,3 +95,10 @@ RAISERROR (@ErrorMessage, -- Message text.
 @ErrorSeverity, -- Severity. 
 @ErrorState -- State. 
 ); 
+
+4.主动锁表
+begin tran
+(替换为更新语句)
+WAITFOR DELAY '00:00:60'
+COMMIT TRAN
+
