@@ -85,3 +85,5 @@ java synchronized详解:http://www.cnblogs.com/GnagWang/archive/2011/02/27/19666
 Java Calendar 类的时间操作:http://blog.csdn.net/joyous/article/details/9630893
 
 你加班太多是因为你的代码写的烂:http://www.cnblogs.com/yuanguobin/p/6096029.html
+
+日行灯完美关闭方法 : http://club.autohome.com.cn/bbs/thread-c-78-61029541-1.html
