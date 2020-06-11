@@ -1,0 +1,106 @@
+import os
+
+#关于OS(操作系统接口模块)模块的一些介绍
+filePath = 'C:\\Users\\NEUSOFT Japan\\Desktop\\CSV'
+
+# 符号 \
+os.path.sep
+
+# 当前系统路径分割符
+os.sep
+
+# 判断现在正在实用的平台，Windows 返回 ‘nt'; Linux 返回’posix'
+os.name
+
+# 得到当前的工作路径。
+os.getcwd( )
+
+# 得到当前工作路径的文件列表。
+os.listdir(os.getcwd())
+
+# 创建文件。
+os.mkdir()
+
+# 创建嵌套文件
+os.makedirs()
+
+# 删除文件。
+os.remove()
+
+# 删除指定目录
+os.rmdir()
+
+# 判断指定对象是否为文件。是返回True,否则False
+os.path.isfile()
+
+# 判断指定对象是否为目录。是True,否则False
+os.path.isdir()
+
+#检验指定的对象是否存在。是True,否则False.
+os.path.exists()
+
+# 获得绝对路径。
+os.path.abspath()
+
+# 改变目录到指定目录
+os.chdir()
+
+# 获得文件的大小，如果为目录，返回0
+os.path.getsize()
+
+# 获得绝对路径。
+os.path.abspath()
+
+# 运行shell命令。
+os.system()
+
+# 将一个路径的目录名和文件名分开。
+os.path.split()
+
+# 将一个文件名与扩展名分开。
+os.path.splitext()
+
+# 指定所有目录下所有的文件和目录名。
+os.listdir()
+
+# 连接目录和文件名。
+os.path.join()
+
+# 返回文件名
+os.path.basename()
+
+# 返回文件路径
+os.path.dirname()
+
+
+"""
+# 遍历文件夹
+walk(top, topdown=True, οnerrοr=None, followlinks=False)
+每次遍历的对象都是返回的是一个三元组(root,dirs,files)
+root 所指的是当前正在遍历的这个文件夹的本身的地址
+dirs 是一个 list ，内容是该文件夹中所有的目录的名字(不包括子目录)
+files 同样是 list , 内容是该文件夹中所有的文件(不包括子目录)
+"""
+for i,j,k in os.walk(filePath,0,None,1):
+    a = k
+    # print(i,j,k)
+
+"""
+# 遍历文件夹
+拓展
+"""
+#拓展，遍历目标文件夹下一级子目录内容
+root_depth = len(filePath.split(os.path.sep))
+c = []  # 存放第1级子目录
+d = []  # 存放第2级子目录
+for root, dirs, files in os.walk(filePath, topdown=True):
+    for name in dirs:
+        dir_path = os.path.join(root, name)
+        dir_depth = len(dir_path.split(os.path.sep))
+        if dir_depth == root_depth + 1:
+            c.append(dir_path)
+        elif dir_depth == root_depth + 2:
+            d.append(dir_path)
+        else:
+            break
+
